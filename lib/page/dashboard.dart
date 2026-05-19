@@ -7,6 +7,7 @@ import 'package:flutter_app/pertemuan/pertemuan5.dart';
 import 'package:flutter_app/pertemuan/pertemuan6.dart';
 import 'package:flutter_app/pertemuan/pertemuan7.dart';
 import 'package:flutter_app/pertemuan/pertemuan8.dart';
+import 'package:flutter_app/pertemuan/pertemuan9.dart';
 
 
 class DashboardPage extends StatelessWidget {
@@ -64,8 +65,15 @@ class DashboardPage extends StatelessWidget {
       "title": "Pertemuan 8",
       "subtitle": "Materi Auto Complete Dan Spinner",
       "icon": Icons.auto_stories,
-      "color": Colors.blue,
+      "color": Colors.pink,
       "page": AutocompletespinPage(),
+    },
+    {
+      "title": "Pertemuan 9",
+      "subtitle": "Date dan Time Picker",
+      "icon": Icons.auto_stories,
+      "color": Colors.blue,
+      "page": Pertemuan9Page(),
     },
   ];
 

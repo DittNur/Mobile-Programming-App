@@ -17,7 +17,7 @@ class DashboardPage extends StatelessWidget {
     "subtitle": "Materi Pengenalan Flutter",
     "icon": Icons.auto_stories,
     "color": Colors.red,
-    "page": Pertemuan1Page(), // Ganti sesuai nama class di file kamu
+    "page": Pertemuan1Page(),
   },
   {
     "title": "Pertemuan 2",

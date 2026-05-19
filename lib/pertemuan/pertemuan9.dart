@@ -5,8 +5,6 @@ class Pertemuan9Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Menghapus MaterialApp di sini agar halaman menggunakan Navigator dari halaman sebelumnya (Dashboard)
-    // dan tombol back otomatis muncul di AppBar.
     return const DateTimePickerForm();
   }
 }
@@ -227,7 +225,6 @@ class _DateTimePickerFormState extends State<DateTimePickerForm> {
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(109, 214, 79, 255),
         foregroundColor: Colors.white,
-        // Tombol back akan otomatis muncul di sini jika halaman ini dibuka dari Navigator.push
         title: const Text(
           'Date & Time Picker',
           style: TextStyle(
